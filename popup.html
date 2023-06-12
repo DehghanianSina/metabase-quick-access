@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <h1>URL Extension</h1>
+    <div id="settings-container">
+      <img src="gear-icon.png" alt="Settings" id="gear-icon">
+      <span id="settings-label">Settings</span>
+    </div>    
+    <label for="category-dashboard">Dashboard</label>
+    <input type="radio" id="category-dashboard" name="category" value="dashboard" checked />
+    <br />
+    <label for="category-question">Question</label>
+    <input type="radio" id="category-question" name="category" value="question" />
+    <br />
+    <label for="category-collection">Collection</label>
+    <input type="radio" id="category-collection" name="category" value="collection" />
+    <br />
+    <div>
+      <label>Number:</label>
+      <input type="number" id="number-input" min="0" step="1">
+    </div>
+    <button id="construct-button">Construct URL</button>
+    <div id="result-container"></div>
+  </body>
+</html>

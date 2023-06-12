@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "URL Extension",
+  "version": "1.0",
+  "description": "Constructs a new URL by appending category and number.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "icons": {
+    "16": "gear-icon.png",
+    "48": "gear-icon.png",
+    "128": "gear-icon.png"
+  }
+}

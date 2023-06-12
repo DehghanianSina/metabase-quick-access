@@ -1,0 +1,17 @@
+#settings-container {
+  text-align: right;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#settings-icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+#settings-label {
+  position: absolute;
+  top: 4px;
+  left: 24px;
+}
