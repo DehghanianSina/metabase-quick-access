@@ -1,22 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "URL Extension",
+  "name": "Metabase Quick Access",
   "version": "1.0",
-  "description": "Constructs a new URL by appending category and number.",
+  "description": "Quickly access Metabase dashboards, questions, and collections using their numbers",
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "src/popup.html",
+    "default_icon": "src/icon.png"
   },
   "permissions": [
     "activeTab",
     "storage"
   ],
   "options_ui": {
-    "page": "options.html",
+    "page": "src/options.html",
     "open_in_tab": true
   },
   "icons": {
-    "16": "gear-icon.png",
-    "48": "gear-icon.png",
-    "128": "gear-icon.png"
+    "16": "src/icon.png",
+    "48": "src/icon.png",
+    "128": "src/icon.png"
   }
 }
