@@ -1,11 +1,34 @@
-# easy-mb-dash
-A simple Chrome extension to open Metabase dashboards easily by simply entering its number.
+# Metabase Quick Access
 
-# How to Use?
-- Simply clone the repository to you local machine. 
-- go to CHrome manage extensions menu `chrome://extensions`
-- make sure the *developer mode* is on.
-- click on *load unpacked*
-- select the directory you've cloned before.
+A simple Chrome extension to quickly access Metabase dashboards, questions, and collections by entering their numbers.
 
-⚠️ Note: After adding the extension to your browser, you should define the base URL of your Metabase. To do so, click on the gear ⚙️ button in the extension.
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/metabase-quick-access.git
+   cd metabase-quick-access
+   ```
+
+2. Open Chrome and go to `chrome://extensions/`
+3. Enable "Developer mode" in the top right corner
+4. Click "Load unpacked" and select the extension directory
+
+## Configuration
+
+After installing the extension:
+1. Click on the extension icon in your Chrome toolbar
+2. Click the extension icon to open settings
+3. Enter your Metabase base URL (e.g., `https://metabase.yourcompany.com`)
+4. Click "Save"
+
+## Usage
+
+1. Click the extension icon in your Chrome toolbar
+2. Enter the dashboard, question, or collection number
+3. Press Enter or click "Go"
+4. The item will open in a new tab
+
+## License
+
+MIT License
