@@ -6,7 +6,7 @@ A simple Chrome extension to quickly access Metabase dashboards, questions, and 
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/metabase-quick-access.git
+   git clone https://github.com/DehghanianSina/metabase-quick-access.git   
    cd metabase-quick-access
    ```
 
