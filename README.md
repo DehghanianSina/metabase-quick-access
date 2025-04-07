@@ -18,7 +18,7 @@ A simple Chrome extension to quickly access Metabase dashboards, questions, and 
 
 After installing the extension:
 1. Click on the extension icon in your Chrome toolbar
-2. Click the extension icon to open settings
+2. Click the extension icon, find the gear ⚙️ icon to open settings
 3. Enter your Metabase base URL (e.g., `https://metabase.yourcompany.com`)
 4. Click "Save"
 
